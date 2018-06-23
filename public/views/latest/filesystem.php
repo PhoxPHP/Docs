@@ -114,8 +114,8 @@
 						Writes content into a file.
 					</h6>
 					<div class="ui-documentation-nav">
-						<a href="#{siteUrl('docs/latest/di')}" class="prev">
-							Previous: Dependency Injection
+						<a href="#{siteUrl('docs/latest/cli')}" class="prev">
+							Previous: Cli
 						</a>
 						<a href="#{siteUrl('docs/latest/database')}" class="next">
 							Next: Database

@@ -110,8 +110,8 @@
 						<a href="#{siteUrl('docs/latest/caching')}" class="prev">
 							Previous: Caching
 						</a>
-						<a href="#{siteUrl('docs/latest/filesystem')}" class="next">
-							Next: Filesystem
+						<a href="#{siteUrl('docs/latest/cli')}" class="next">
+							Next: Cli
 						</a>
 					</div>
 				</div>

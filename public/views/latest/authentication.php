@@ -33,8 +33,8 @@
 						To get started with authentication, we recommend that you go through the <a href="#{siteUrl('docs/latest/authentication/configuration')}">authentication configuration</a> to be more familiar with how the component works.
 					</h5>
 					<div class="ui-documentation-nav">
-						<a href="#{siteUrl('docs/latest/installation')}" class="prev">
-							Previous: Installation
+						<a href="#{siteUrl('docs/latest/configuration')}" class="prev">
+							Previous: Configuration
 						</a>
 						<a href="#{siteUrl('docs/latest/authentication/configuration')}" class="next">
 							Next: Authentication configuration

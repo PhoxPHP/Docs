@@ -30,11 +30,11 @@
 						The cli makes it easy to interace with your application from the terminal.
 					</h5>
 					<div class="ui-documentation-nav">
-						<a href="#{siteUrl('docs/latest/requirements')}" class="prev">
-							Previous: Requirements
+						<a href="#{siteUrl('docs/latest/di')}" title="phoxphp dependency injection" class="prev">
+							Previous: Dependency injection
 						</a>
-						<a href="#{siteUrl('docs/latest/configuration')}" class="next">
-							Next: Configuration
+						<a href="#{siteUrl('docs/latest/filesystem')}" class="next">
+							Next: Filesystem
 						</a>
 					</div>
 				</div>
