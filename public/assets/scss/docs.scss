@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+$siteTheme1: #ea5411;
+$siteTheme2: #645247;
+$siteTheme3: #ffab86;
+$white: #fff;
+$siteFont: 'Raleway', sans-serif;
+$preBg: #fafafa;
+$stringColor: #032f62;
+$arrowColor: #d73a49;
+$varColor: #24292e;
+$black: #000000;
+$preCodeColor: #3a5e82;
+$logoColor: #ef861e;
+@import "fonts";
+@import "layout";
+@import "home";
+@import "documentation";
+
+.hidden {
+	display: none;
+}
+.modalh4 {
+	padding: 15px;
+}

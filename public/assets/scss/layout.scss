@@ -1,0 +1,162 @@
+$headerBackground: #ddd;
+.ui {
+	width: 100%;
+	height: 100%;
+	.ui-body {
+		width: 100%;
+		height: 100%;
+		display: block;
+		.ui-body-header {
+			width: 100%;
+			min-height: 10px;
+			position: relative;
+			background-color: $headerBackground;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border-bottom: 9px solid $logoColor;
+			.container {
+				nav {
+					padding: 0;
+					width: 100%;
+					.ui-body-header-index {
+						width: 50%;
+						float: left;
+						display: inline-block;
+						position: relative;
+						@media screen and (max-width: 991px) {
+							width: 20%;
+						}
+						@media screen and (max-width: 767px) {
+							width: 100%;
+						}
+						a {
+							img {
+								width: 65px;
+							}
+						}
+						span {
+							display: none;
+							cursor: pointer;
+							float: right;
+							background-color: #ea5411;
+							padding: 10px 10px;
+							line-height: 0;
+							border-radius: 0px;
+							position: absolute;
+							top: 50%;
+							right: 0;
+							transform: translate(0, -50%);
+							-webkit-transform: translate(0, -50%);
+							-moz-transform: translate(0, -50%);
+							-o-transform: translate(0, -50%);
+							-ms-transform: translate(0, -50%);
+							@media screen and (max-width: 767px) {
+								display: block;
+							}
+							img {
+								width: 15px;
+							}
+						}
+					}
+					.ui-body-header-last {
+						width: 50%;
+						float: right;
+						display: inline-block;
+						@media screen and (max-width: 991px) {
+							width: 80%;
+						}
+						@media screen and (min-width: 768px) {
+							display: inline-block !important;
+						}
+						@media screen and (max-width: 767px) {
+							margin-top: 15px;
+							width: 100%;
+							display: none;
+						}
+						ul {
+							float: right;
+							margin: 0;
+							padding: 0;
+							@media screen and (max-width: 767px) {
+								width: 100%;
+								float: left;
+							}
+							li {
+								display: inline-block;
+								list-style-type: none;
+								margin-left: 10px;
+								@media screen and (max-width: 767px) {
+									display: block;
+									width: 100%;
+									margin-bottom: 15px;
+									margin-left: 0px;
+									a {
+										display: block;
+										width: 100%;
+									}
+								}
+								&.is-menu {
+									display: none;
+									@media screen and (max-width: 767px) {
+										display: block;
+									}
+								}
+								a {
+									background-color: $logoColor;
+									color: $white;
+									padding: 10px;
+									border-radius: 3px;
+									text-decoration: none;
+									font-family: $siteFont;
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.ui-body-layout {
+			min-height: 10px;
+			.ui-body-layout-container {
+				width: 100%;
+				min-height: 10px;
+			}
+		}
+		.ui-body-footer {
+			width: 100%;
+			min-height: 10px;
+			text-align: center;
+			background-color: $headerBackground;
+			border-top: 1px solid #cbcbcb;
+			p {
+				margin-bottom: 0px;
+				font-weight: 600;
+				margin-left: 15px;
+			}
+			ul {
+				display: block;
+				width: 100%;
+				text-align: center;
+				padding: 15px;
+				margin: 0;
+				li {
+					list-style-type: none;
+					display: inline-block;
+					margin-left: 15px;
+					&.inline {
+						margin-left: 0px;
+					}
+					a {
+						text-decoration: underline;
+						color: #999;
+						i {
+							font-size: 30px;
+							margin-left: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

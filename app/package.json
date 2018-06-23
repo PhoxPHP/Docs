@@ -1,0 +1,31 @@
+[
+	{
+		"type": "repo",
+		"lib": "public/controllers"
+	},
+	{
+		"type": "repo",
+		"lib": "public/models",
+		"except": ["empty"] 
+	},
+	{
+		"type": "repo",
+		"lib": "public/filters",
+		"except": ["empty"] 
+	},
+	{
+		"type": "repo",
+		"lib": "public/mappers",
+		"except": ["empty"] 
+	},
+	{
+		"type": "repo",
+		"lib": "public/validators",
+		"except": ["empty"] 
+	},
+	{
+		"type": "repo",
+		"lib": "public/commands",
+		"except": ["empty"] 
+	}
+]

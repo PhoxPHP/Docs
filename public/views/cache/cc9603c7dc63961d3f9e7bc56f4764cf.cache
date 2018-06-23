@@ -1,0 +1,61 @@
+<!-- Content nav -->
+<div class="ui-documentation-index-row-sidebar">
+	<div class="ui-block">
+		<h2>Getting started</h2>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/requirements'); ?>">Requirements</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/installation'); ?>">Installation</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/configuration'); ?>">Configuration</a>
+		</h3>
+	</div>
+	<div class="ui-block">
+		<h2>Using the framework</h2>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/authentication'); ?>">Authentication</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/controllers'); ?>">Controllers</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/caching'); ?>">Caching</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/di'); ?>">Dependency injection</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/filesystem'); ?>">Filesystem</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/database'); ?>">Database</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/routing'); ?>">Routing</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/session'); ?>">Session</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/view'); ?>">View</a>
+		</h3>
+	</div>
+	<div class="ui-block">
+		<h2>Contributing</h2>
+		<h3>
+			<a href="<?php echo siteUrl('docs/latest/contributing'); ?>">Contributing</a>
+		</h3>
+	</div>
+	<div class="ui-block">
+		<h2>Help</h2>
+		<h3>
+			<a href="<?php echo siteUrl('docs/faqs'); ?>">Faq</a>
+		</h3>
+		<h3>
+			<a href="<?php echo siteUrl('docs/changelog'); ?>">Changelog</a>
+		</h3>
+	</div>
+</div>
+<!-- Content nav -->
