@@ -36,6 +36,7 @@ $route->get('/docs/latest/caching', 'DefaultController@caching');
 $route->get('/docs/latest/di', 'DefaultController@dependencyInjection');
 $route->get('/docs/latest/filesystem', 'DefaultController@filesystem');
 $route->get('/docs/latest/database', 'DefaultController@database');
+$route->get('/docs/latest/cli', 'DefaultController@cli');
 $route->get('/docs/latest/routing', 'DefaultController@routing');
 $route->get('/docs/latest/session', 'DefaultController@session');
 $route->get('/docs/latest/view', 'DefaultController@views');

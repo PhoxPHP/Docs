@@ -183,6 +183,15 @@ class DefaultController extends Controller
 	}
 
 	/**
+	* @access 	public
+	* @return 	void
+	*/
+	public function cli()
+	{
+		return $this->view()->render('latest/cli');
+	}
+
+	/**
 	* {@inheritDOc}
 	*/
 	public function registerModel()

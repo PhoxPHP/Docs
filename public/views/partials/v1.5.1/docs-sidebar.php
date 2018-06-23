@@ -27,9 +27,6 @@
 			<a href="#{siteUrl('docs/latest/di')}" title="phoxphp dependency injection">Dependency injection</a>
 		</h3>
 		<h3>
-			<a href="#{siteUrl('docs/latest/cli')}" title="phoxphp cli">Cli</a>
-		</h3>
-		<h3>
 			<a href="#{siteUrl('docs/latest/filesystem')}" title="phoxphp filesystem">Filesystem</a>
 		</h3>
 		<h3>

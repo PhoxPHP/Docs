@@ -109,6 +109,40 @@
 				</div>
 			</div>
 		</div>
+		<div class="ui-home-updates col-12">
+			<h2>
+				What's new
+			</h2>
+			<div class="container">
+				<div class="row">
+					<h4>PhoxPHP <a href="">v2.0.1</a> is out and includes a huge stability improvements as well as packages improvements.</h4>
+					<div class="ui-home-updates-node">
+						<h5>Better exception handling</h5>
+						<h6>
+							In this new update, your exception classes do not have to extend <b>*App\BaseException*</b> which means it is optional.
+						</h6>
+					</div>
+					<div class="ui-home-updates-node">
+						<h5>Response code handling improvements</h5>
+						<h6>
+							Proper response code is now being returned when error occurs or when an exception is thrown.
+						</h6>
+					</div>
+					<div class="ui-home-updates-node">
+						<h5>Console feature</h5>
+						<h6>
+							This update also includes cli feature added to the framework which is named <b>*console*</b>. This cli feature allows you to also create custom command classes which are called <b>*Runnable*</b> and run them from the cli interface. You can find more on how this works <b><a href="/docs/latest/cli" target="_blank">here</a></b>.
+						</h6>
+					</div>
+					<div class="ui-home-updates-node">
+						<h5>Stability improvements</h5>
+						<h6>
+							General stability improvements has also been made to this framework which makes it capable of being used in production.
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="ui-home-newsletter col-12">
 			<h2>Want to receieve updates about new features, versions?</h2>
 			<div class="container">

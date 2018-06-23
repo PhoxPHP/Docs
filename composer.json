@@ -32,7 +32,7 @@
 		"phoxphp/prop": "~1.1.5",
 		"phoxphp/auth": "~1.1.1",
 		"phoxphp/validator": "~1.0.2",
-		"phoxphp/phoxengine": "~1.1.8",
+		"phoxphp/phoxengine": "~1.1.9",
 		"phoxphp/console": "~1.0.4",
 		"php": ">=7.0.1"
 	},

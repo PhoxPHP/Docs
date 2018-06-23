@@ -171,6 +171,7 @@
         border: 0;
         background: #fff;
         font-weight: 600;
+        -webkit-box-shadow: 0px 4px 0px #ddd;
         box-shadow: 0px 4px 0px #ddd; }
   .ui-home .ui-home-features {
     width: 100%;
@@ -327,6 +328,45 @@
       margin-bottom: 15px; }
     .ui-home .ui-home-newsletter .container .ui-home-newsletter-form .ui-home-newsletter-form-button {
       margin-bottom: 15px; }
+  .ui-home .ui-home-updates {
+    margin-bottom: 50px; }
+    .ui-home .ui-home-updates h2 {
+      text-align: center;
+      font-weight: 100;
+      color: #ea5411;
+      margin-bottom: 50px; }
+    .ui-home .ui-home-updates .container {
+      max-width: 767px; }
+      .ui-home .ui-home-updates .container .row h4 {
+        text-align: center;
+        color: #645247;
+        font-weight: 300; }
+        .ui-home .ui-home-updates .container .row h4 a {
+          color: #ea5411; }
+      .ui-home .ui-home-updates .container .row .ui-home-updates-node {
+        min-height: 50px;
+        width: 100%;
+        border: 1px solid #f1f1f1;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 15px 40px;
+        border-radius: 4px;
+        -webkit-box-shadow: 1px 2px 8px #efefef;
+        box-shadow: 1px 2px 8px #efefef; }
+        .ui-home .ui-home-updates .container .row .ui-home-updates-node h5 {
+          text-align: center;
+          margin-bottom: 15px;
+          font-weight: 400;
+          text-shadow: none;
+          color: #ea5411;
+          border-bottom: 1px solid #f1f1f1;
+          padding-bottom: 10px; }
+        .ui-home .ui-home-updates .container .row .ui-home-updates-node h6 {
+          font-weight: 400;
+          text-align: center; }
+          .ui-home .ui-home-updates .container .row .ui-home-updates-node h6 a {
+            color: #ea5411;
+            text-decoration: underline; }
 
 .ui-documentation .container h1 {
   font-size: 17px;
