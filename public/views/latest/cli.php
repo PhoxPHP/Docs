@@ -29,6 +29,12 @@
 					<h5>
 						The cli makes it easy to interace with your application from the terminal.
 					</h5>
+					<h4>
+						Configuration
+					</h4>
+					<h5>
+						Configuration file for this component is located in <i>root/public/config/console.php.</i>
+					</h5>
 					<div class="ui-documentation-nav">
 						<a href="#{siteUrl('docs/latest/di')}" title="phoxphp dependency injection" class="prev">
 							Previous: Dependency injection
