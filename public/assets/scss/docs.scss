@@ -11,10 +11,11 @@ $varColor: #24292e;
 $black: #000000;
 $preCodeColor: #3a5e82;
 $logoColor: #ef861e;
-@import "fonts";
-@import "layout";
-@import "home";
-@import "documentation";
+
+@import 'fonts';
+@import 'layout';
+@import 'home';
+@import 'documentation';
 
 .hidden {
 	display: none;

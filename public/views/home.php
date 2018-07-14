@@ -115,7 +115,7 @@
 			</h2>
 			<div class="container">
 				<div class="row">
-					<h4>PhoxPHP <a href="">v2.0.1</a> is out and includes a huge stability improvements as well as packages improvements.</h4>
+					<h4>PhoxPHP <a href="https://github.com/PhoxPHP/phoxphp" target='_blank'>v2.0.2</a> is out and includes a huge stability improvements as well as packages improvements.</h4>
 					<div class="ui-home-updates-node">
 						<h5>Better exception handling</h5>
 						<h6>

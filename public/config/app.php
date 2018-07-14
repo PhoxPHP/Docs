@@ -74,7 +74,7 @@ return [
 	############################
 	# Current software version
 	############################
-	'current_version' => '<span>v2.0.1</span>',
+	'current_version' => '<span>v2.0.2</span>',
 
 	####################################################
 	# random string key used in randomString function

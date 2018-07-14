@@ -512,6 +512,75 @@
     &#35;{$post->title}
 
 &#35;stopEach
+</pre>
+					<h4>
+						Migrations <a>new in</a> <span>[v2.0.1]</span>
+					</h4>
+					<h5>
+						Migrations are useful when your project's database tables gets bigger and you have to keep track of your database schema.
+						<br>
+						<br>
+						Migration classes are located in <a title='PhoxPHP migrations location'>root/public/migrations</a>.
+					</h5>
+					<h5 class='title'>
+						Creating a migration class
+					</h5>
+					<h5>
+						You can create a migration class in your cli using the <a>migration create</a> command.
+					</h5>
+<pre class='code slim'>
+php console migration create
+</pre>
+					<h5>
+						The command above will create your migration class with the given name and place it in <a>root/public/migrations</a> which is the default migration file storage.
+						<br>
+						<br>
+						Every migration class contains a up and down method. Before creating your migration, you must make sure you have your database connection setup and working properly so you don't encounter any error.
+					</h5>
+					<h4>
+						Running all migrations
+					</h4>
+					<h5>
+						To run all migrations, you need to simply run the <a>migration run</a> command.
+					</h5>
+<pre class='code slim'>
+php console migration run
+</pre>
+					<h5>
+						The command above will get all pending migrations and call the up method. When a migration class has been run, it's status will change from <a>pending</a> to <a>migrated</a>
+					</h5>
+					<h4>
+						Running a single migration
+					</h4>
+<pre class='code slim'>
+php console migration run-class migration-filename
+</pre>
+					<h4>
+						Seeds <a>new in</a> <span>[v2.0.1]</span>
+					</h4>
+					<h5>
+						Seeds are used to write data into your database tables. Seed classes are located in <a>root/public/seeds</a> directory.
+					</h5>
+					<h4>
+						Creating a seeder
+					</h4>
+<pre class='code slim'>
+php console seed create
+</pre>
+					<h4>
+						Running all seeders
+					</h4>
+<pre class='code slim'>
+php console seed run
+</pre>
+					<h5>
+						The command above will run all available seeders.
+					</h5>
+					<h4>
+						Running a single seeder
+					</h4>
+<pre class='code slim'>
+php console seed run-class seeder-name
 </pre>					
 					<div class="ui-documentation-nav">
 						<a href="#{siteUrl('docs/latest/filesystem')}" class="prev">
